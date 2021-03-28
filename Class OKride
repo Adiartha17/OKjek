@@ -1,0 +1,30 @@
+class OKride {
+    // deklarasi variabel
+    String lokasi;
+    String tujuan;
+    int biaya;
+    int total,jarak;
+    int ongkir=5000;
+    public OKride (String lokasi,String tujuan,int biaya,int jarak){
+        /*
+        this digunakan untuk menunjukan atribut
+        sekarang yang digunakan pada class
+        */
+        this.lokasi = lokasi;
+        this.tujuan = tujuan;
+        this.biaya = biaya;
+        this.jarak =jarak;
+        //Deklarasi rumus untuk menghitung total
+        total = (biaya*jarak)+ongkir;
+    }
+    void tampilOKride(){
+        /*
+        tampilkan output ke user yang sudah secara otomatis
+        terisi input dari data yang sudah disimpat
+        */
+        System.out.println("Lokasi anda    :"+lokasi);
+        System.out.println("Lokasi tujuan  :"+tujuan);
+        System.out.println("Biaya order    :"+total);
+    }
+
+}
