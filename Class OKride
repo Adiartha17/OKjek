@@ -20,7 +20,7 @@ class OKride {
     void tampilOKride(){
         /*
         tampilkan output ke user yang sudah secara otomatis
-        terisi input dari data yang sudah disimpat
+        terisi input dari data yang sudah disimpan
         */
         System.out.println("Lokasi anda    :"+lokasi);
         System.out.println("Lokasi tujuan  :"+tujuan);
