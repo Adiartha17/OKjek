@@ -1,4 +1,4 @@
 # OKjek
 Tugas UTS OOP
-Membuat program yang terdapat unsur OOP dengan bahasa pemrograman java
-Dengan compiler IntelliJ IDEA
+Membuat program yang terdapat unsur OOP bahasa pemrograman java
+dengan compiler IntelliJ IDEA
