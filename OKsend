@@ -1,0 +1,18 @@
+class OKsend {
+    // deklarasi variabel
+    String nama;
+    double jarak,berat,total;
+    public OKsend (String nama,double jarak,double berat){
+        this.nama = nama;
+        this.jarak = jarak;
+        this.berat= berat;
+        //Deklarasi rumus untuk menghitung total
+        total=(berat*5000)+(jarak*1000)+5000;
+    }
+    void tampilOKsend (){
+        System.out.println("Nama barang   : "+nama);
+        System.out.println("Berat barang  : "+berat+" kg");
+        System.out.println("Jarak kirim   : "+jarak+" km");
+        System.out.println("Biaya order   : "+total);
+    }
+}
