@@ -1,0 +1,18 @@
+class OKfood {
+    // deklarasi variabel
+    String nama;
+    int harga,total;
+    int ongkir = 5000;
+
+    public OKfood(String nama,int harga){
+        this.nama =nama;
+        this.harga=harga;
+        //Deklarasi rumus untuk menghitung total
+        total=harga+ongkir;
+    }
+
+    void tampilOKfood(){
+        System.out.println("Anda memilih "+nama);
+        System.out.println("Total order  : "+total);
+    }
+}
